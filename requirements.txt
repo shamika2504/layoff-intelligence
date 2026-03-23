@@ -1,0 +1,22 @@
+# Install all at once with: pip install -r requirements.txt
+
+# AWS SDK — everything you need to talk to S3, Glue, Athena, Lambda
+boto3==1.34.0
+
+# HTTP requests — for Layoffs.fyi download and BLS API calls
+requests==2.31.0
+
+# Data manipulation — cleaning, transforming, joining datasets
+pandas==2.1.4
+
+# Parquet file format — columnar storage for S3 data lake
+pyarrow==14.0.1
+
+# Load .env file into environment variables
+python-dotenv==1.0.0
+
+# OpenAI API client (used Day 4)
+openai==1.6.1
+
+# Athena query runner from Python
+pyathena==3.0.6

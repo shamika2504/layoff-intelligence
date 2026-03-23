@@ -1,0 +1,31 @@
+# Environment variables — NEVER commit your secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Mac system files
+.DS_Store
+
+# AWS credentials — never commit these
+.aws/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Power BI files (too large for GitHub, share via link)
+*.pbix
+
+# Data files — store in S3, not GitHub
+data/
+*.csv
+*.parquet
+*.json
+
+# Logs
+*.log
