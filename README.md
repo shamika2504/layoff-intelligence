@@ -24,7 +24,7 @@ Layoffs.fyi + BLS JOLTS API
 
 ## Tech stack
 - **Cloud:** AWS (S3, Glue, Athena, Lambda, EventBridge, CloudWatch)
-- **Language:** Python 3.11
+- **Language:** Python 3.12
 - **BI tool:** Power BI Desktop + Power BI Service
 - **AI layer:** OpenAI GPT-4o-mini
 - **Data sources:** Layoffs.fyi, BLS JOLTS API
@@ -47,5 +47,3 @@ See docs/architecture.md for full setup instructions.
 ## Key findings
 *(Updated weekly by automated pipeline)*
 
----
-*Built as a portfolio project to demonstrate: Python, AWS, SQL, Power BI, and AI integration.*
